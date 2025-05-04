@@ -1,5 +1,5 @@
 from utils import verify_user, check_token, check_verification, get_token
-from info import VERIFY, VERIFY_TUTORIAL, BOT_USERNAME
+from config import VERIFY, VERIFY_TUTORIAL, BOT_USERNAME
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from pyrogram import Client, filters  # Replace with your framework imports
 
