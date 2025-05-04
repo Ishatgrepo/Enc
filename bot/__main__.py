@@ -17,7 +17,7 @@ import asyncio
 import itertools
 
 from pyrogram import filters
-
+from bot.commands import start, verify  # Add the imports
 from . import LOGS, conf, events, pyro, re, tele
 from .startup.after import on_startup
 from .utils.msg_utils import event_handler
