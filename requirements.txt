@@ -14,6 +14,8 @@ psutil
 pycountry
 pymediainfo
 pymongo[srv]
+shortzy
+pytz
 pyrogram==2.0.106
 #pyrogram==2.0.73
 python-decouple
